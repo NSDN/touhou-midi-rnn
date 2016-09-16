@@ -29,7 +29,7 @@ This project downloads midi tracks from [www.touhoumidi.altervista.org](http://w
   * [sample](https://cdn.rawgit.com/NSDN/touhou-midi-rnn/master/mp3/aya-s1.mp3)
   * [sample](https://cdn.rawgit.com/NSDN/touhou-midi-rnn/master/mp3/aya-s2.mp3)
 
-更多示例 midi 输出见 [这里](https://github.com/NSDB/touhou-midi-rnn/tree/master/samples)
+更多示例 midi 输出见 [这里](https://github.com/NSDN/touhou-midi-rnn/tree/master/samples)
 
 ## 使用
 
