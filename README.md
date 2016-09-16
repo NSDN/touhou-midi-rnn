@@ -13,21 +13,21 @@ This project downloads midi tracks from [www.touhoumidi.altervista.org](http://w
 下载到的 midi 文件大概有两百多首，用不同的处理方法和网络配置训练了几个批次：
 
 * data/alice：仅使用带有多音轨的 midi 文件，将多个音轨摊开并去掉了注释，转换后的文本约 5MB。使用两层 512 节点的 LSTM 网络训练。有明显的 overfitting 注意
-  * Sample: <audio controls src="https://github.com/NSDN/touhou-midi-rnn/raw/master/mp3/alice-s1.mp3"></audio>
-  * Sample: <audio controls src="https://github.com/NSDN/touhou-midi-rnn/raw/master/mp3/alice-s2.mp3"></audio>
-  * Sample: <audio controls src="https://github.com/NSDN/touhou-midi-rnn/raw/master/mp3/alice-s3.mp3"></audio>
-  * Sample: <audio controls src="https://github.com/NSDN/touhou-midi-rnn/raw/master/mp3/alice-s4.mp3"></audio>
-  * Sample: <audio controls src="https://github.com/NSDN/touhou-midi-rnn/raw/master/mp3/alice-s5.mp3"></audio>
-  * Sample: <audio controls src="https://github.com/NSDN/touhou-midi-rnn/raw/master/mp3/alice-s6.mp3"></audio>
+  * [sample](https://github.com/NSDN/touhou-midi-rnn/raw/master/mp3/alice-s1.mp3)
+  * [sample](https://github.com/NSDN/touhou-midi-rnn/raw/master/mp3/alice-s2.mp3)
+  * [sample](https://github.com/NSDN/touhou-midi-rnn/raw/master/mp3/alice-s3.mp3)
+  * [sample](https://github.com/NSDN/touhou-midi-rnn/raw/master/mp3/alice-s4.mp3)
+  * [sample](https://github.com/NSDN/touhou-midi-rnn/raw/master/mp3/alice-s5.mp3)
+  * [sample](https://github.com/NSDN/touhou-midi-rnn/raw/master/mp3/alice-s6.mp3)
 
 * data/sakuya：约 11MB 的文本，两层 256 节点的网络。多了不少狂气注意
-  * Sample: <audio controls src="https://github.com/NSDN/touhou-midi-rnn/raw/master/mp3/sakuya-s1.mp3"></audio>
-  * Sample: <audio controls src="https://github.com/NSDN/touhou-midi-rnn/raw/master/mp3/sakuya-s2.mp3"></audio>
-  * Sample: <audio controls src="https://github.com/NSDN/touhou-midi-rnn/raw/master/mp3/sakuya-s3.mp3"></audio>
+  * [sample](https://github.com/NSDN/touhou-midi-rnn/raw/master/mp3/sakuya-s1.mp3)
+  * [sample](https://github.com/NSDN/touhou-midi-rnn/raw/master/mp3/sakuya-s2.mp3)
+  * [sample](https://github.com/NSDN/touhou-midi-rnn/raw/master/mp3/sakuya-s3.mp3)
 
 * data/aya：将音轨合并后输出产生约 14MB 的文本。两层 256 节点的网络。大量脸滚键盘注意
-  * Sample: <audio controls src="https://github.com/NSDN/touhou-midi-rnn/raw/master/mp3/aya-s1.mp3"></audio>
-  * Sample: <audio controls src="https://github.com/NSDN/touhou-midi-rnn/raw/master/mp3/aya-s2.mp3"></audio>
+  * [sample](https://github.com/NSDN/touhou-midi-rnn/raw/master/mp3/aya-s1.mp3)
+  * [sample](https://github.com/NSDN/touhou-midi-rnn/raw/master/mp3/aya-s2.mp3)
 
 更多示例 midi 输出见 [这里](https://github.com/NSDB/touhou-midi-rnn/tree/master/samples)
 
